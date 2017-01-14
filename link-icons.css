@@ -1,0 +1,45 @@
+/* Style για τα εικονίδια αρχείων */
+
+a[href$=".pdf"]:before, a[href$=".doc"]:before, a[href$=".docx"]:before, a[href$=".xls"]:before, a[href$=".xlsx"]:before, a[href$=".ppt"]:before, a[href$=".pptx"]:before, a[href$=".zip"]:before, a[href$=".rar"]:before {
+   content:'.';
+   display: inline-block;
+   width:28px;
+   line-height:24px;
+}
+
+a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[href$=".xls"], a[href$=".xlsx"], a[href$=".ppt"], a[href$=".pptx"], a[href$=".zip"], a[href$=".rar"] {
+	color: #506CAD;
+} 
+
+
+a[href$=".pdf"]:before {
+   background: url('images/pdf-file.png') no-repeat;
+}
+
+a[href$=".doc"]:before {
+   background: url('images/doc-file.png') no-repeat;
+}
+
+a[href$=".docx"]:before {
+   background: url('images/docx-file.png') no-repeat;
+}
+
+a[href$=".xls"]:before {
+   background: url('images/xls-file.png') no-repeat;
+}
+
+a[href$=".xlsx"]:before {
+   background: url('images/xlsx-file.png') no-repeat;
+}
+
+a[href$=".ppt"]:before {
+   background: url('images/ppt-file.png') no-repeat;
+}
+
+a[href$=".pptx"]:before {
+   background: url('images/pptx-file.png') no-repeat;
+}
+
+a[href$=".zip"]:before, a[href$=".rar"]:before {
+   background: url('images/zip-file.png') no-repeat;
+}
