@@ -13,33 +13,33 @@ a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[href$=".xls"], a[href$=".x
 
 
 a[href$=".pdf"]:before {
-   background: url('images/pdf-file.png') no-repeat;
+   background: url('icons/icon-pdf.png') no-repeat;
 }
 
 a[href$=".doc"]:before {
-   background: url('images/doc-file.png') no-repeat;
+   background: url('icons/icon-doc.png') no-repeat;
 }
 
 a[href$=".docx"]:before {
-   background: url('images/docx-file.png') no-repeat;
+   background: url('icons/icon-docx.png') no-repeat;
 }
 
 a[href$=".xls"]:before {
-   background: url('images/xls-file.png') no-repeat;
+   background: url('icons/icon-xls.png') no-repeat;
 }
 
 a[href$=".xlsx"]:before {
-   background: url('images/xlsx-file.png') no-repeat;
+   background: url('icons/icon-xlsx.png') no-repeat;
 }
 
 a[href$=".ppt"]:before {
-   background: url('images/ppt-file.png') no-repeat;
+   background: url('icons/icon-ppt.png') no-repeat;
 }
 
 a[href$=".pptx"]:before {
-   background: url('images/pptx-file.png') no-repeat;
+   background: url('icons/icon-pptx.png') no-repeat;
 }
 
 a[href$=".zip"]:before, a[href$=".rar"]:before {
-   background: url('images/zip-file.png') no-repeat;
+   background: url('icons/icon-zip.png') no-repeat;
 }
