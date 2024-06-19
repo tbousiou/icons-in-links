@@ -4,5 +4,5 @@ Display filetype icons in html a tags according to file type. Icons are placed a
 Currently supported files are: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX and ZIP. You can easily edit the code to change icons and support other filetypes.
 
 # Usage
-Download the src folder and include the css file in your html. Place icons folder in the same location as the css. See also example folder.
+Download the src folder and include the css file in your html. Place icons folder in the same location as the css. See an example in docs folder.
 
